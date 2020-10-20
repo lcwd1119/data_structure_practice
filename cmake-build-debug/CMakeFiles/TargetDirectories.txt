@@ -1,5 +1,6 @@
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w2plus2.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w2p2.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w5p5.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w1p1.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w2plus1.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w2p1.dir
@@ -7,5 +8,10 @@ C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w1p
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w2p3.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w3p1.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w3p2.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w5p2.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/123.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w5p1.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w5p3.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w5p4.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/rebuild_cache.dir

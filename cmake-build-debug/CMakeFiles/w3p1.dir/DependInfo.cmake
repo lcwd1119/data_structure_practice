@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/d4050/Documents/program/data structure/w3/123.cpp" "C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w3p1.dir/w3/123.cpp.obj"
   "C:/Users/d4050/Documents/program/data structure/w3/w3p1.cpp" "C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w3p1.dir/w3/w3p1.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
