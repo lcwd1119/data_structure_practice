@@ -40,4 +40,5 @@ int main()
         else if(operation == -1)
             break;
     }
+    return 0;
 }
