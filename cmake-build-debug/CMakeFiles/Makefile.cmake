@@ -72,4 +72,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/w6p1.dir/DependInfo.cmake"
   "CMakeFiles/w6p2.dir/DependInfo.cmake"
   "CMakeFiles/w6p3.dir/DependInfo.cmake"
+  "CMakeFiles/w7p1.dir/DependInfo.cmake"
+  "CMakeFiles/w7p2.dir/DependInfo.cmake"
   )
