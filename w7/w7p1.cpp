@@ -1,20 +1,20 @@
 #include <iostream>
-#include <cstring>
-#define max_size 30
+#include <string>
 using namespace std;
 
 int main()
 {
     int top = -1;
-    char temp[max_size];
+    string temp;
     int result;
     while (1)
     {
-        fgets(temp,max_size,stdin);
-        strtok(temp,"\r\n");
-        if(strcmp(temp,"end")==0)
+        result = 0;
+        top = -1;
+        cin >> temp;
+        if(temp == "end")
             break;
-        for(int i = 0;i < strlen(temp);i++)
+        for(int i = 0;i < temp.length();i++)
         {
             if(temp[i] == '(')
                 top++;
@@ -26,6 +26,8 @@ int main()
                 break;
             }
         }
+        if(top != -1)
+            result =-1;
         if(result==-1)
             cout << result << endl;
         else
