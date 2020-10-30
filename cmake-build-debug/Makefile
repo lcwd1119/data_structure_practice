@@ -402,6 +402,19 @@ w7p2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w7p2.dir\build.make CMakeFiles/w7p2.dir/build
 .PHONY : w7p2/fast
 
+#=============================================================================
+# Target rules for targets named w7p3
+
+# Build rule for target.
+w7p3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w7p3
+.PHONY : w7p3
+
+# fast build rule for target.
+w7p3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w7p3.dir\build.make CMakeFiles/w7p3.dir/build
+.PHONY : w7p3/fast
+
 w1/w1p1.obj: w1/w1p1.cpp.obj
 
 .PHONY : w1/w1p1.obj
@@ -972,6 +985,33 @@ w7/w7p2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w7p2.dir\build.make CMakeFiles/w7p2.dir/w7/w7p2.cpp.s
 .PHONY : w7/w7p2.cpp.s
 
+w7/w7p3.obj: w7/w7p3.cpp.obj
+
+.PHONY : w7/w7p3.obj
+
+# target to build an object file
+w7/w7p3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w7p3.dir\build.make CMakeFiles/w7p3.dir/w7/w7p3.cpp.obj
+.PHONY : w7/w7p3.cpp.obj
+
+w7/w7p3.i: w7/w7p3.cpp.i
+
+.PHONY : w7/w7p3.i
+
+# target to preprocess a source file
+w7/w7p3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w7p3.dir\build.make CMakeFiles/w7p3.dir/w7/w7p3.cpp.i
+.PHONY : w7/w7p3.cpp.i
+
+w7/w7p3.s: w7/w7p3.cpp.s
+
+.PHONY : w7/w7p3.s
+
+# target to generate assembly for a file
+w7/w7p3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w7p3.dir\build.make CMakeFiles/w7p3.dir/w7/w7p3.cpp.s
+.PHONY : w7/w7p3.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1001,6 +1041,7 @@ help:
 	@echo ... w6p3
 	@echo ... w7p1
 	@echo ... w7p2
+	@echo ... w7p3
 	@echo ... w1/w1p1.obj
 	@echo ... w1/w1p1.i
 	@echo ... w1/w1p1.s
@@ -1064,6 +1105,9 @@ help:
 	@echo ... w7/w7p2.obj
 	@echo ... w7/w7p2.i
 	@echo ... w7/w7p2.s
+	@echo ... w7/w7p3.obj
+	@echo ... w7/w7p3.i
+	@echo ... w7/w7p3.s
 .PHONY : help
 
 
