@@ -415,6 +415,58 @@ w7p3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w7p3.dir\build.make CMakeFiles/w7p3.dir/build
 .PHONY : w7p3/fast
 
+#=============================================================================
+# Target rules for targets named w8p1
+
+# Build rule for target.
+w8p1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w8p1
+.PHONY : w8p1
+
+# fast build rule for target.
+w8p1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w8p1.dir\build.make CMakeFiles/w8p1.dir/build
+.PHONY : w8p1/fast
+
+#=============================================================================
+# Target rules for targets named w8p2
+
+# Build rule for target.
+w8p2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w8p2
+.PHONY : w8p2
+
+# fast build rule for target.
+w8p2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w8p2.dir\build.make CMakeFiles/w8p2.dir/build
+.PHONY : w8p2/fast
+
+#=============================================================================
+# Target rules for targets named w8p3
+
+# Build rule for target.
+w8p3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w8p3
+.PHONY : w8p3
+
+# fast build rule for target.
+w8p3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w8p3.dir\build.make CMakeFiles/w8p3.dir/build
+.PHONY : w8p3/fast
+
+#=============================================================================
+# Target rules for targets named w4p2
+
+# Build rule for target.
+w4p2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w4p2
+.PHONY : w4p2
+
+# fast build rule for target.
+w4p2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w4p2.dir\build.make CMakeFiles/w4p2.dir/build
+.PHONY : w4p2/fast
+
 w1/w1p1.obj: w1/w1p1.cpp.obj
 
 .PHONY : w1/w1p1.obj
@@ -715,6 +767,33 @@ w4/w4p1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w4p1.dir\build.make CMakeFiles/w4p1.dir/w4/w4p1.cpp.s
 .PHONY : w4/w4p1.cpp.s
 
+w4/w4p2.obj: w4/w4p2.cpp.obj
+
+.PHONY : w4/w4p2.obj
+
+# target to build an object file
+w4/w4p2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w4p2.dir\build.make CMakeFiles/w4p2.dir/w4/w4p2.cpp.obj
+.PHONY : w4/w4p2.cpp.obj
+
+w4/w4p2.i: w4/w4p2.cpp.i
+
+.PHONY : w4/w4p2.i
+
+# target to preprocess a source file
+w4/w4p2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w4p2.dir\build.make CMakeFiles/w4p2.dir/w4/w4p2.cpp.i
+.PHONY : w4/w4p2.cpp.i
+
+w4/w4p2.s: w4/w4p2.cpp.s
+
+.PHONY : w4/w4p2.s
+
+# target to generate assembly for a file
+w4/w4p2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w4p2.dir\build.make CMakeFiles/w4p2.dir/w4/w4p2.cpp.s
+.PHONY : w4/w4p2.cpp.s
+
 w5/w5p1.obj: w5/w5p1.cpp.obj
 
 .PHONY : w5/w5p1.obj
@@ -1012,6 +1091,87 @@ w7/w7p3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w7p3.dir\build.make CMakeFiles/w7p3.dir/w7/w7p3.cpp.s
 .PHONY : w7/w7p3.cpp.s
 
+w8/w8p1.obj: w8/w8p1.cpp.obj
+
+.PHONY : w8/w8p1.obj
+
+# target to build an object file
+w8/w8p1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w8p1.dir\build.make CMakeFiles/w8p1.dir/w8/w8p1.cpp.obj
+.PHONY : w8/w8p1.cpp.obj
+
+w8/w8p1.i: w8/w8p1.cpp.i
+
+.PHONY : w8/w8p1.i
+
+# target to preprocess a source file
+w8/w8p1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w8p1.dir\build.make CMakeFiles/w8p1.dir/w8/w8p1.cpp.i
+.PHONY : w8/w8p1.cpp.i
+
+w8/w8p1.s: w8/w8p1.cpp.s
+
+.PHONY : w8/w8p1.s
+
+# target to generate assembly for a file
+w8/w8p1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w8p1.dir\build.make CMakeFiles/w8p1.dir/w8/w8p1.cpp.s
+.PHONY : w8/w8p1.cpp.s
+
+w8/w8p2.obj: w8/w8p2.cpp.obj
+
+.PHONY : w8/w8p2.obj
+
+# target to build an object file
+w8/w8p2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w8p2.dir\build.make CMakeFiles/w8p2.dir/w8/w8p2.cpp.obj
+.PHONY : w8/w8p2.cpp.obj
+
+w8/w8p2.i: w8/w8p2.cpp.i
+
+.PHONY : w8/w8p2.i
+
+# target to preprocess a source file
+w8/w8p2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w8p2.dir\build.make CMakeFiles/w8p2.dir/w8/w8p2.cpp.i
+.PHONY : w8/w8p2.cpp.i
+
+w8/w8p2.s: w8/w8p2.cpp.s
+
+.PHONY : w8/w8p2.s
+
+# target to generate assembly for a file
+w8/w8p2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w8p2.dir\build.make CMakeFiles/w8p2.dir/w8/w8p2.cpp.s
+.PHONY : w8/w8p2.cpp.s
+
+w8/w8p3.obj: w8/w8p3.cpp.obj
+
+.PHONY : w8/w8p3.obj
+
+# target to build an object file
+w8/w8p3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w8p3.dir\build.make CMakeFiles/w8p3.dir/w8/w8p3.cpp.obj
+.PHONY : w8/w8p3.cpp.obj
+
+w8/w8p3.i: w8/w8p3.cpp.i
+
+.PHONY : w8/w8p3.i
+
+# target to preprocess a source file
+w8/w8p3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w8p3.dir\build.make CMakeFiles/w8p3.dir/w8/w8p3.cpp.i
+.PHONY : w8/w8p3.cpp.i
+
+w8/w8p3.s: w8/w8p3.cpp.s
+
+.PHONY : w8/w8p3.s
+
+# target to generate assembly for a file
+w8/w8p3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w8p3.dir\build.make CMakeFiles/w8p3.dir/w8/w8p3.cpp.s
+.PHONY : w8/w8p3.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1031,6 +1191,7 @@ help:
 	@echo ... w3p1
 	@echo ... w3p2
 	@echo ... w4p1
+	@echo ... w4p2
 	@echo ... w5p1
 	@echo ... w5p2
 	@echo ... w5p3
@@ -1042,6 +1203,9 @@ help:
 	@echo ... w7p1
 	@echo ... w7p2
 	@echo ... w7p3
+	@echo ... w8p1
+	@echo ... w8p2
+	@echo ... w8p3
 	@echo ... w1/w1p1.obj
 	@echo ... w1/w1p1.i
 	@echo ... w1/w1p1.s
@@ -1075,6 +1239,9 @@ help:
 	@echo ... w4/w4p1.obj
 	@echo ... w4/w4p1.i
 	@echo ... w4/w4p1.s
+	@echo ... w4/w4p2.obj
+	@echo ... w4/w4p2.i
+	@echo ... w4/w4p2.s
 	@echo ... w5/w5p1.obj
 	@echo ... w5/w5p1.i
 	@echo ... w5/w5p1.s
@@ -1108,6 +1275,15 @@ help:
 	@echo ... w7/w7p3.obj
 	@echo ... w7/w7p3.i
 	@echo ... w7/w7p3.s
+	@echo ... w8/w8p1.obj
+	@echo ... w8/w8p1.i
+	@echo ... w8/w8p1.s
+	@echo ... w8/w8p2.obj
+	@echo ... w8/w8p2.i
+	@echo ... w8/w8p2.s
+	@echo ... w8/w8p3.obj
+	@echo ... w8/w8p3.i
+	@echo ... w8/w8p3.s
 .PHONY : help
 
 
