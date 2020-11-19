@@ -467,6 +467,59 @@ w4p2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w4p2.dir\build.make CMakeFiles/w4p2.dir/build
 .PHONY : w4p2/fast
 
+#=============================================================================
+# Target rules for targets named 12
+
+# Build rule for target.
+12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12
+.PHONY : 12
+
+# fast build rule for target.
+12/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12.dir\build.make CMakeFiles/12.dir/build
+.PHONY : 12/fast
+
+#=============================================================================
+# Target rules for targets named w9p1
+
+# Build rule for target.
+w9p1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w9p1
+.PHONY : w9p1
+
+# fast build rule for target.
+w9p1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w9p1.dir\build.make CMakeFiles/w9p1.dir/build
+.PHONY : w9p1/fast
+
+12.obj: 12.cpp.obj
+
+.PHONY : 12.obj
+
+# target to build an object file
+12.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12.dir\build.make CMakeFiles/12.dir/12.cpp.obj
+.PHONY : 12.cpp.obj
+
+12.i: 12.cpp.i
+
+.PHONY : 12.i
+
+# target to preprocess a source file
+12.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12.dir\build.make CMakeFiles/12.dir/12.cpp.i
+.PHONY : 12.cpp.i
+
+12.s: 12.cpp.s
+
+.PHONY : 12.s
+
+# target to generate assembly for a file
+12.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12.dir\build.make CMakeFiles/12.dir/12.cpp.s
+.PHONY : 12.cpp.s
+
 w1/w1p1.obj: w1/w1p1.cpp.obj
 
 .PHONY : w1/w1p1.obj
@@ -1172,6 +1225,33 @@ w8/w8p3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w8p3.dir\build.make CMakeFiles/w8p3.dir/w8/w8p3.cpp.s
 .PHONY : w8/w8p3.cpp.s
 
+w9/w9p1.obj: w9/w9p1.cpp.obj
+
+.PHONY : w9/w9p1.obj
+
+# target to build an object file
+w9/w9p1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w9p1.dir\build.make CMakeFiles/w9p1.dir/w9/w9p1.cpp.obj
+.PHONY : w9/w9p1.cpp.obj
+
+w9/w9p1.i: w9/w9p1.cpp.i
+
+.PHONY : w9/w9p1.i
+
+# target to preprocess a source file
+w9/w9p1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w9p1.dir\build.make CMakeFiles/w9p1.dir/w9/w9p1.cpp.i
+.PHONY : w9/w9p1.cpp.i
+
+w9/w9p1.s: w9/w9p1.cpp.s
+
+.PHONY : w9/w9p1.s
+
+# target to generate assembly for a file
+w9/w9p1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w9p1.dir\build.make CMakeFiles/w9p1.dir/w9/w9p1.cpp.s
+.PHONY : w9/w9p1.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1180,6 +1260,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... 12
 	@echo ... 123
 	@echo ... w1p1
 	@echo ... w1p2
@@ -1206,6 +1287,10 @@ help:
 	@echo ... w8p1
 	@echo ... w8p2
 	@echo ... w8p3
+	@echo ... w9p1
+	@echo ... 12.obj
+	@echo ... 12.i
+	@echo ... 12.s
 	@echo ... w1/w1p1.obj
 	@echo ... w1/w1p1.i
 	@echo ... w1/w1p1.s
@@ -1284,6 +1369,9 @@ help:
 	@echo ... w8/w8p3.obj
 	@echo ... w8/w8p3.i
 	@echo ... w8/w8p3.s
+	@echo ... w9/w9p1.obj
+	@echo ... w9/w9p1.i
+	@echo ... w9/w9p1.s
 .PHONY : help
 
 
