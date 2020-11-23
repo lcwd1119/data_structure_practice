@@ -16,8 +16,15 @@ int main()
     cout << "prefix of " << prefix << ':' << endl;
     while (sentence.find(prefix,temp) < sentence.size()) {
         temp = sentence.find(prefix,temp);
+        if(sentence[temp-1] != ' ')
+        {
+            temp+= prefix.size();
+            continue;
+        }
         while (sentence[temp] != ' ') {
             cout << sentence[temp];
+            if(temp >= sentence.size())
+                break;
             temp++;
         }
         cout << endl;
@@ -27,11 +34,18 @@ int main()
     temp = 0;
     while (sentence.find(suffix,temp) < sentence.size()) {
         temp = sentence.find(suffix,temp);
+        if(sentence[temp+suffix.size()] != ' ')
+        {
+            temp += suffix.size();
+            continue;
+        }
         while (sentence[temp] != ' ')
             temp--;
         temp++;
         while (sentence[temp] != ' ') {
             cout << sentence[temp];
+            if(temp >= sentence.size())
+                break;
             temp++;
         }
         cout << endl;
