@@ -26,5 +26,9 @@ C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w8p
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w4p2.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/12.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w9p1.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w9p2.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w9p3.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w6plus2.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w6plus1.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/rebuild_cache.dir

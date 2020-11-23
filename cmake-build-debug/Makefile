@@ -493,6 +493,58 @@ w9p1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w9p1.dir\build.make CMakeFiles/w9p1.dir/build
 .PHONY : w9p1/fast
 
+#=============================================================================
+# Target rules for targets named w9p2
+
+# Build rule for target.
+w9p2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w9p2
+.PHONY : w9p2
+
+# fast build rule for target.
+w9p2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w9p2.dir\build.make CMakeFiles/w9p2.dir/build
+.PHONY : w9p2/fast
+
+#=============================================================================
+# Target rules for targets named w9p3
+
+# Build rule for target.
+w9p3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w9p3
+.PHONY : w9p3
+
+# fast build rule for target.
+w9p3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w9p3.dir\build.make CMakeFiles/w9p3.dir/build
+.PHONY : w9p3/fast
+
+#=============================================================================
+# Target rules for targets named w6plus2
+
+# Build rule for target.
+w6plus2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w6plus2
+.PHONY : w6plus2
+
+# fast build rule for target.
+w6plus2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w6plus2.dir\build.make CMakeFiles/w6plus2.dir/build
+.PHONY : w6plus2/fast
+
+#=============================================================================
+# Target rules for targets named w6plus1
+
+# Build rule for target.
+w6plus1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w6plus1
+.PHONY : w6plus1
+
+# fast build rule for target.
+w6plus1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w6plus1.dir\build.make CMakeFiles/w6plus1.dir/build
+.PHONY : w6plus1/fast
+
 12.obj: 12.cpp.obj
 
 .PHONY : 12.obj
@@ -1063,6 +1115,60 @@ w6/w6p3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w6p3.dir\build.make CMakeFiles/w6p3.dir/w6/w6p3.cpp.s
 .PHONY : w6/w6p3.cpp.s
 
+w6/w6plus1.obj: w6/w6plus1.cpp.obj
+
+.PHONY : w6/w6plus1.obj
+
+# target to build an object file
+w6/w6plus1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w6plus1.dir\build.make CMakeFiles/w6plus1.dir/w6/w6plus1.cpp.obj
+.PHONY : w6/w6plus1.cpp.obj
+
+w6/w6plus1.i: w6/w6plus1.cpp.i
+
+.PHONY : w6/w6plus1.i
+
+# target to preprocess a source file
+w6/w6plus1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w6plus1.dir\build.make CMakeFiles/w6plus1.dir/w6/w6plus1.cpp.i
+.PHONY : w6/w6plus1.cpp.i
+
+w6/w6plus1.s: w6/w6plus1.cpp.s
+
+.PHONY : w6/w6plus1.s
+
+# target to generate assembly for a file
+w6/w6plus1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w6plus1.dir\build.make CMakeFiles/w6plus1.dir/w6/w6plus1.cpp.s
+.PHONY : w6/w6plus1.cpp.s
+
+w6/w6plus2.obj: w6/w6plus2.cpp.obj
+
+.PHONY : w6/w6plus2.obj
+
+# target to build an object file
+w6/w6plus2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w6plus2.dir\build.make CMakeFiles/w6plus2.dir/w6/w6plus2.cpp.obj
+.PHONY : w6/w6plus2.cpp.obj
+
+w6/w6plus2.i: w6/w6plus2.cpp.i
+
+.PHONY : w6/w6plus2.i
+
+# target to preprocess a source file
+w6/w6plus2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w6plus2.dir\build.make CMakeFiles/w6plus2.dir/w6/w6plus2.cpp.i
+.PHONY : w6/w6plus2.cpp.i
+
+w6/w6plus2.s: w6/w6plus2.cpp.s
+
+.PHONY : w6/w6plus2.s
+
+# target to generate assembly for a file
+w6/w6plus2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w6plus2.dir\build.make CMakeFiles/w6plus2.dir/w6/w6plus2.cpp.s
+.PHONY : w6/w6plus2.cpp.s
+
 w7/w7p1.obj: w7/w7p1.cpp.obj
 
 .PHONY : w7/w7p1.obj
@@ -1252,6 +1358,60 @@ w9/w9p1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w9p1.dir\build.make CMakeFiles/w9p1.dir/w9/w9p1.cpp.s
 .PHONY : w9/w9p1.cpp.s
 
+w9/w9p2.obj: w9/w9p2.cpp.obj
+
+.PHONY : w9/w9p2.obj
+
+# target to build an object file
+w9/w9p2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w9p2.dir\build.make CMakeFiles/w9p2.dir/w9/w9p2.cpp.obj
+.PHONY : w9/w9p2.cpp.obj
+
+w9/w9p2.i: w9/w9p2.cpp.i
+
+.PHONY : w9/w9p2.i
+
+# target to preprocess a source file
+w9/w9p2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w9p2.dir\build.make CMakeFiles/w9p2.dir/w9/w9p2.cpp.i
+.PHONY : w9/w9p2.cpp.i
+
+w9/w9p2.s: w9/w9p2.cpp.s
+
+.PHONY : w9/w9p2.s
+
+# target to generate assembly for a file
+w9/w9p2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w9p2.dir\build.make CMakeFiles/w9p2.dir/w9/w9p2.cpp.s
+.PHONY : w9/w9p2.cpp.s
+
+w9/w9p3.obj: w9/w9p3.cpp.obj
+
+.PHONY : w9/w9p3.obj
+
+# target to build an object file
+w9/w9p3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w9p3.dir\build.make CMakeFiles/w9p3.dir/w9/w9p3.cpp.obj
+.PHONY : w9/w9p3.cpp.obj
+
+w9/w9p3.i: w9/w9p3.cpp.i
+
+.PHONY : w9/w9p3.i
+
+# target to preprocess a source file
+w9/w9p3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w9p3.dir\build.make CMakeFiles/w9p3.dir/w9/w9p3.cpp.i
+.PHONY : w9/w9p3.cpp.i
+
+w9/w9p3.s: w9/w9p3.cpp.s
+
+.PHONY : w9/w9p3.s
+
+# target to generate assembly for a file
+w9/w9p3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w9p3.dir\build.make CMakeFiles/w9p3.dir/w9/w9p3.cpp.s
+.PHONY : w9/w9p3.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1281,6 +1441,8 @@ help:
 	@echo ... w6p1
 	@echo ... w6p2
 	@echo ... w6p3
+	@echo ... w6plus1
+	@echo ... w6plus2
 	@echo ... w7p1
 	@echo ... w7p2
 	@echo ... w7p3
@@ -1288,6 +1450,8 @@ help:
 	@echo ... w8p2
 	@echo ... w8p3
 	@echo ... w9p1
+	@echo ... w9p2
+	@echo ... w9p3
 	@echo ... 12.obj
 	@echo ... 12.i
 	@echo ... 12.s
@@ -1351,6 +1515,12 @@ help:
 	@echo ... w6/w6p3.obj
 	@echo ... w6/w6p3.i
 	@echo ... w6/w6p3.s
+	@echo ... w6/w6plus1.obj
+	@echo ... w6/w6plus1.i
+	@echo ... w6/w6plus1.s
+	@echo ... w6/w6plus2.obj
+	@echo ... w6/w6plus2.i
+	@echo ... w6/w6plus2.s
 	@echo ... w7/w7p1.obj
 	@echo ... w7/w7p1.i
 	@echo ... w7/w7p1.s
@@ -1372,6 +1542,12 @@ help:
 	@echo ... w9/w9p1.obj
 	@echo ... w9/w9p1.i
 	@echo ... w9/w9p1.s
+	@echo ... w9/w9p2.obj
+	@echo ... w9/w9p2.i
+	@echo ... w9/w9p2.s
+	@echo ... w9/w9p3.obj
+	@echo ... w9/w9p3.i
+	@echo ... w9/w9p3.s
 .PHONY : help
 
 

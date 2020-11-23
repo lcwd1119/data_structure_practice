@@ -110,4 +110,5 @@ int main()
         if(i < times-1)
             cout << endl;
     }
+    return 0;
 }
