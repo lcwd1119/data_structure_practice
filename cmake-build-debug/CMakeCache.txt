@@ -162,7 +162,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=w3
+CMAKE_PROJECT_NAME:STATIC=data_structure
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/ranlib.exe
@@ -243,6 +243,18 @@ CMAKE_STRIP:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+data_BINARY_DIR:STATIC=C:/Users/d4050/Documents/program/data structure/cmake-build-debug
+
+//Value Computed by CMake
+data_SOURCE_DIR:STATIC=C:/Users/d4050/Documents/program/data structure
+
+//Value Computed by CMake
+data_structure_BINARY_DIR:STATIC=C:/Users/d4050/Documents/program/data structure/cmake-build-debug
+
+//Value Computed by CMake
+data_structure_SOURCE_DIR:STATIC=C:/Users/d4050/Documents/program/data structure
 
 //Value Computed by CMake
 w3_BINARY_DIR:STATIC=C:/Users/d4050/Documents/program/data structure/cmake-build-debug

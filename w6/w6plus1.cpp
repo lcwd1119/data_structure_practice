@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+#include <set>
 #include <map>
 using namespace std;
 
@@ -9,30 +11,36 @@ int main()
     int charfrequency,wordfrequency;
     cin >> charfrequency >> wordfrequency;
     getchar();
-    getchar();
     string sentence;
-    getline(cin,sentence);
+    getline(cin,sentence,'\r');
+
     int temp = 0;
-    cout << "prefix of " << prefix << ':' << endl;
+    set<string> prefixes;
     while (sentence.find(prefix,temp) < sentence.size()) {
+        string str = "";
         temp = sentence.find(prefix,temp);
         if(sentence[temp-1] != ' ')
         {
             temp+= prefix.size();
             continue;
         }
-        while (sentence[temp] != ' ') {
-            cout << sentence[temp];
+        while (sentence[temp] != ' ' && temp < sentence.size()) {
+            str += sentence[temp];
             if(temp >= sentence.size())
                 break;
             temp++;
         }
-        cout << endl;
+        prefixes.insert(str);
     }
+    cout << "prefix of " << prefix << ':' << endl;
+    for(auto it = prefixes.begin();it != prefixes.end();it++)
+        cout << *it << endl;
 
-    cout << "suffix of " << suffix << ':' << endl;
+
+    set<string> suffixes;
     temp = 0;
     while (sentence.find(suffix,temp) < sentence.size()) {
+        string str = "";
         temp = sentence.find(suffix,temp);
         if(sentence[temp+suffix.size()] != ' ')
         {
@@ -42,14 +50,17 @@ int main()
         while (sentence[temp] != ' ')
             temp--;
         temp++;
-        while (sentence[temp] != ' ') {
-            cout << sentence[temp];
+        while (sentence[temp] != ' ' && temp < sentence.size()) {
+            str += sentence[temp];
             if(temp >= sentence.size())
                 break;
             temp++;
         }
-        cout << endl;
+        suffixes.insert(str);
     }
+    cout << "suffix of " << suffix << ':' << endl;
+    for(auto it = suffixes.begin();it != suffixes.end();it++)
+        cout << *it << endl;
 
     int charcount[26] = {0};
     for(int i = 0;i < sentence.size();i++)
@@ -61,14 +72,17 @@ int main()
             printf("%c,%d\n",i+'a',charcount[i]);
 
      map<string,int> wordcount;
+     set<string> wordset;
      string tempword;
      for(int i = 0;i < sentence.size();i++)
      {
          if(sentence[i] == ' ')
          {
              auto isfind = wordcount.find(tempword);
-             if(isfind == wordcount.end())
+             if(isfind == wordcount.end()) {
+                 wordset.insert(tempword);
                  wordcount[tempword] = 1;
+             }
              else
                  wordcount[tempword]++;
              tempword = "";
@@ -77,10 +91,11 @@ int main()
          tempword += sentence[i];
      }
     cout << "word frequency over " << wordfrequency << ':' << endl;
-     for(auto iter = wordcount.begin();iter != wordcount.end();iter++)
+     for(auto it = wordset.begin();it != wordset.end();it++)
      {
+         auto iter = wordcount.find(*it);
          if(iter->second >= wordfrequency)
-             cout << iter->first << ',' << iter->second << endl;
+             cout << *it << ',' << iter->second << endl;
      }
     return 0;
 }
