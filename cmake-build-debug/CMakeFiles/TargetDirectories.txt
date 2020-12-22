@@ -1,5 +1,12 @@
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w13p2.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w8plus2.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w12p3.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/12.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w13p1.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w13p3.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w10plus1.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w14p1.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w14p2.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w14p3.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/rebuild_cache.dir

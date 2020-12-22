@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named w13p2
+
+# Build rule for target.
+w13p2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w13p2
+.PHONY : w13p2
+
+# fast build rule for target.
+w13p2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p2.dir\build.make CMakeFiles/w13p2.dir/build
+.PHONY : w13p2/fast
+
+#=============================================================================
 # Target rules for targets named w8plus2
 
 # Build rule for target.
@@ -168,6 +181,84 @@ w12p3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\12.dir\build.make CMakeFiles/12.dir/build
 .PHONY : 12/fast
 
+#=============================================================================
+# Target rules for targets named w13p1
+
+# Build rule for target.
+w13p1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w13p1
+.PHONY : w13p1
+
+# fast build rule for target.
+w13p1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p1.dir\build.make CMakeFiles/w13p1.dir/build
+.PHONY : w13p1/fast
+
+#=============================================================================
+# Target rules for targets named w13p3
+
+# Build rule for target.
+w13p3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w13p3
+.PHONY : w13p3
+
+# fast build rule for target.
+w13p3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p3.dir\build.make CMakeFiles/w13p3.dir/build
+.PHONY : w13p3/fast
+
+#=============================================================================
+# Target rules for targets named w10plus1
+
+# Build rule for target.
+w10plus1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w10plus1
+.PHONY : w10plus1
+
+# fast build rule for target.
+w10plus1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w10plus1.dir\build.make CMakeFiles/w10plus1.dir/build
+.PHONY : w10plus1/fast
+
+#=============================================================================
+# Target rules for targets named w14p1
+
+# Build rule for target.
+w14p1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w14p1
+.PHONY : w14p1
+
+# fast build rule for target.
+w14p1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p1.dir\build.make CMakeFiles/w14p1.dir/build
+.PHONY : w14p1/fast
+
+#=============================================================================
+# Target rules for targets named w14p2
+
+# Build rule for target.
+w14p2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w14p2
+.PHONY : w14p2
+
+# fast build rule for target.
+w14p2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p2.dir\build.make CMakeFiles/w14p2.dir/build
+.PHONY : w14p2/fast
+
+#=============================================================================
+# Target rules for targets named w14p3
+
+# Build rule for target.
+w14p3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w14p3
+.PHONY : w14p3
+
+# fast build rule for target.
+w14p3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p3.dir\build.make CMakeFiles/w14p3.dir/build
+.PHONY : w14p3/fast
+
 12.obj: 12.cpp.obj
 
 .PHONY : 12.obj
@@ -195,6 +286,33 @@ w12p3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\12.dir\build.make CMakeFiles/12.dir/12.cpp.s
 .PHONY : 12.cpp.s
 
+w10/w10plus1.obj: w10/w10plus1.cpp.obj
+
+.PHONY : w10/w10plus1.obj
+
+# target to build an object file
+w10/w10plus1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w10plus1.dir\build.make CMakeFiles/w10plus1.dir/w10/w10plus1.cpp.obj
+.PHONY : w10/w10plus1.cpp.obj
+
+w10/w10plus1.i: w10/w10plus1.cpp.i
+
+.PHONY : w10/w10plus1.i
+
+# target to preprocess a source file
+w10/w10plus1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w10plus1.dir\build.make CMakeFiles/w10plus1.dir/w10/w10plus1.cpp.i
+.PHONY : w10/w10plus1.cpp.i
+
+w10/w10plus1.s: w10/w10plus1.cpp.s
+
+.PHONY : w10/w10plus1.s
+
+# target to generate assembly for a file
+w10/w10plus1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w10plus1.dir\build.make CMakeFiles/w10plus1.dir/w10/w10plus1.cpp.s
+.PHONY : w10/w10plus1.cpp.s
+
 w12/w12p3.obj: w12/w12p3.cpp.obj
 
 .PHONY : w12/w12p3.obj
@@ -221,6 +339,168 @@ w12/w12p3.s: w12/w12p3.cpp.s
 w12/w12p3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w12p3.dir\build.make CMakeFiles/w12p3.dir/w12/w12p3.cpp.s
 .PHONY : w12/w12p3.cpp.s
+
+w13/w13p1.obj: w13/w13p1.cpp.obj
+
+.PHONY : w13/w13p1.obj
+
+# target to build an object file
+w13/w13p1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p1.dir\build.make CMakeFiles/w13p1.dir/w13/w13p1.cpp.obj
+.PHONY : w13/w13p1.cpp.obj
+
+w13/w13p1.i: w13/w13p1.cpp.i
+
+.PHONY : w13/w13p1.i
+
+# target to preprocess a source file
+w13/w13p1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p1.dir\build.make CMakeFiles/w13p1.dir/w13/w13p1.cpp.i
+.PHONY : w13/w13p1.cpp.i
+
+w13/w13p1.s: w13/w13p1.cpp.s
+
+.PHONY : w13/w13p1.s
+
+# target to generate assembly for a file
+w13/w13p1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p1.dir\build.make CMakeFiles/w13p1.dir/w13/w13p1.cpp.s
+.PHONY : w13/w13p1.cpp.s
+
+w13/w13p2.obj: w13/w13p2.cpp.obj
+
+.PHONY : w13/w13p2.obj
+
+# target to build an object file
+w13/w13p2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p2.dir\build.make CMakeFiles/w13p2.dir/w13/w13p2.cpp.obj
+.PHONY : w13/w13p2.cpp.obj
+
+w13/w13p2.i: w13/w13p2.cpp.i
+
+.PHONY : w13/w13p2.i
+
+# target to preprocess a source file
+w13/w13p2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p2.dir\build.make CMakeFiles/w13p2.dir/w13/w13p2.cpp.i
+.PHONY : w13/w13p2.cpp.i
+
+w13/w13p2.s: w13/w13p2.cpp.s
+
+.PHONY : w13/w13p2.s
+
+# target to generate assembly for a file
+w13/w13p2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p2.dir\build.make CMakeFiles/w13p2.dir/w13/w13p2.cpp.s
+.PHONY : w13/w13p2.cpp.s
+
+w13/w13p3.obj: w13/w13p3.cpp.obj
+
+.PHONY : w13/w13p3.obj
+
+# target to build an object file
+w13/w13p3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p3.dir\build.make CMakeFiles/w13p3.dir/w13/w13p3.cpp.obj
+.PHONY : w13/w13p3.cpp.obj
+
+w13/w13p3.i: w13/w13p3.cpp.i
+
+.PHONY : w13/w13p3.i
+
+# target to preprocess a source file
+w13/w13p3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p3.dir\build.make CMakeFiles/w13p3.dir/w13/w13p3.cpp.i
+.PHONY : w13/w13p3.cpp.i
+
+w13/w13p3.s: w13/w13p3.cpp.s
+
+.PHONY : w13/w13p3.s
+
+# target to generate assembly for a file
+w13/w13p3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p3.dir\build.make CMakeFiles/w13p3.dir/w13/w13p3.cpp.s
+.PHONY : w13/w13p3.cpp.s
+
+w14/w14p1.obj: w14/w14p1.cpp.obj
+
+.PHONY : w14/w14p1.obj
+
+# target to build an object file
+w14/w14p1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p1.dir\build.make CMakeFiles/w14p1.dir/w14/w14p1.cpp.obj
+.PHONY : w14/w14p1.cpp.obj
+
+w14/w14p1.i: w14/w14p1.cpp.i
+
+.PHONY : w14/w14p1.i
+
+# target to preprocess a source file
+w14/w14p1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p1.dir\build.make CMakeFiles/w14p1.dir/w14/w14p1.cpp.i
+.PHONY : w14/w14p1.cpp.i
+
+w14/w14p1.s: w14/w14p1.cpp.s
+
+.PHONY : w14/w14p1.s
+
+# target to generate assembly for a file
+w14/w14p1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p1.dir\build.make CMakeFiles/w14p1.dir/w14/w14p1.cpp.s
+.PHONY : w14/w14p1.cpp.s
+
+w14/w14p2.obj: w14/w14p2.cpp.obj
+
+.PHONY : w14/w14p2.obj
+
+# target to build an object file
+w14/w14p2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p2.dir\build.make CMakeFiles/w14p2.dir/w14/w14p2.cpp.obj
+.PHONY : w14/w14p2.cpp.obj
+
+w14/w14p2.i: w14/w14p2.cpp.i
+
+.PHONY : w14/w14p2.i
+
+# target to preprocess a source file
+w14/w14p2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p2.dir\build.make CMakeFiles/w14p2.dir/w14/w14p2.cpp.i
+.PHONY : w14/w14p2.cpp.i
+
+w14/w14p2.s: w14/w14p2.cpp.s
+
+.PHONY : w14/w14p2.s
+
+# target to generate assembly for a file
+w14/w14p2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p2.dir\build.make CMakeFiles/w14p2.dir/w14/w14p2.cpp.s
+.PHONY : w14/w14p2.cpp.s
+
+w14/w14p3.obj: w14/w14p3.cpp.obj
+
+.PHONY : w14/w14p3.obj
+
+# target to build an object file
+w14/w14p3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p3.dir\build.make CMakeFiles/w14p3.dir/w14/w14p3.cpp.obj
+.PHONY : w14/w14p3.cpp.obj
+
+w14/w14p3.i: w14/w14p3.cpp.i
+
+.PHONY : w14/w14p3.i
+
+# target to preprocess a source file
+w14/w14p3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p3.dir\build.make CMakeFiles/w14p3.dir/w14/w14p3.cpp.i
+.PHONY : w14/w14p3.cpp.i
+
+w14/w14p3.s: w14/w14p3.cpp.s
+
+.PHONY : w14/w14p3.s
+
+# target to generate assembly for a file
+w14/w14p3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p3.dir\build.make CMakeFiles/w14p3.dir/w14/w14p3.cpp.s
+.PHONY : w14/w14p3.cpp.s
 
 w8/w8plus2.obj: w8/w8plus2.cpp.obj
 
@@ -258,14 +538,42 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 12
+	@echo ... w10plus1
 	@echo ... w12p3
+	@echo ... w13p1
+	@echo ... w13p2
+	@echo ... w13p3
+	@echo ... w14p1
+	@echo ... w14p2
+	@echo ... w14p3
 	@echo ... w8plus2
 	@echo ... 12.obj
 	@echo ... 12.i
 	@echo ... 12.s
+	@echo ... w10/w10plus1.obj
+	@echo ... w10/w10plus1.i
+	@echo ... w10/w10plus1.s
 	@echo ... w12/w12p3.obj
 	@echo ... w12/w12p3.i
 	@echo ... w12/w12p3.s
+	@echo ... w13/w13p1.obj
+	@echo ... w13/w13p1.i
+	@echo ... w13/w13p1.s
+	@echo ... w13/w13p2.obj
+	@echo ... w13/w13p2.i
+	@echo ... w13/w13p2.s
+	@echo ... w13/w13p3.obj
+	@echo ... w13/w13p3.i
+	@echo ... w13/w13p3.s
+	@echo ... w14/w14p1.obj
+	@echo ... w14/w14p1.i
+	@echo ... w14/w14p1.s
+	@echo ... w14/w14p2.obj
+	@echo ... w14/w14p2.i
+	@echo ... w14/w14p2.s
+	@echo ... w14/w14p3.obj
+	@echo ... w14/w14p3.i
+	@echo ... w14/w14p3.s
 	@echo ... w8/w8plus2.obj
 	@echo ... w8/w8plus2.i
 	@echo ... w8/w8plus2.s
