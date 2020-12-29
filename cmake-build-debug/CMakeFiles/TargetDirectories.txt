@@ -9,4 +9,8 @@ C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/edi
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w14p1.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w14p2.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w14p3.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w15p1.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w15p2.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w11pkus1.dir
+C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/w15p3.dir
 C:/Users/d4050/Documents/program/data structure/cmake-build-debug/CMakeFiles/rebuild_cache.dir

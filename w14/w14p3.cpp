@@ -1,5 +1,4 @@
 #include <iostream>
-#include <algorithm>
 using namespace std;
 
 void setunion(int arr[],int size,int num1,int num2)
@@ -14,6 +13,7 @@ void setunion(int arr[],int size,int num1,int num2)
     }
     else if(arr[num1] == -1 || arr[num2] == -1)
     {
+
         if(arr[num1] == -1)
             arr[num1] = arr[num2];
         else
@@ -32,19 +32,27 @@ void setunion(int arr[],int size,int num1,int num2)
 
 void print_union(int arr[],int size)
 {
+    int isprint[size] = {};
     for(int i = 0; i < size;i++)
     {
         if(arr[i] == -1)
+        {
             printf(" {%d}",i);
+            isprint[i] = 1;
+        }
         else
         {
-            if(i > arr[i])
+            if(i > arr[i] || isprint[i] == 1)
                 continue;
             printf(" {%d",i);
+            isprint[i] = 1;
             for(int j = i+1;j < size;j++)
             {
                 if(arr[j] == arr[i])
-                    printf(",%d",j);
+                {
+                    printf(",%d", j);
+                    isprint[j] = 1;
+                }
             }
             printf("}");
         }

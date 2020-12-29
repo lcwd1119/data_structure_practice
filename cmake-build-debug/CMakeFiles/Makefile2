@@ -82,6 +82,10 @@ all: CMakeFiles/w10plus1.dir/all
 all: CMakeFiles/w14p1.dir/all
 all: CMakeFiles/w14p2.dir/all
 all: CMakeFiles/w14p3.dir/all
+all: CMakeFiles/w15p1.dir/all
+all: CMakeFiles/w15p2.dir/all
+all: CMakeFiles/w11pkus1.dir/all
+all: CMakeFiles/w15p3.dir/all
 
 .PHONY : all
 
@@ -101,6 +105,10 @@ clean: CMakeFiles/w10plus1.dir/clean
 clean: CMakeFiles/w14p1.dir/clean
 clean: CMakeFiles/w14p2.dir/clean
 clean: CMakeFiles/w14p3.dir/clean
+clean: CMakeFiles/w15p1.dir/clean
+clean: CMakeFiles/w15p2.dir/clean
+clean: CMakeFiles/w11pkus1.dir/clean
+clean: CMakeFiles/w15p3.dir/clean
 
 .PHONY : clean
 
@@ -111,7 +119,7 @@ clean: CMakeFiles/w14p3.dir/clean
 CMakeFiles/w13p2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p2.dir\build.make CMakeFiles/w13p2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p2.dir\build.make CMakeFiles/w13p2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=9,10 "Built target w13p2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target w13p2"
 .PHONY : CMakeFiles/w13p2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -138,7 +146,7 @@ CMakeFiles/w13p2.dir/clean:
 CMakeFiles/w8plus2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w8plus2.dir\build.make CMakeFiles/w8plus2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w8plus2.dir\build.make CMakeFiles/w8plus2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=19,20 "Built target w8plus2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=27,28 "Built target w8plus2"
 .PHONY : CMakeFiles/w8plus2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -165,7 +173,7 @@ CMakeFiles/w8plus2.dir/clean:
 CMakeFiles/w12p3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w12p3.dir\build.make CMakeFiles/w12p3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w12p3.dir\build.make CMakeFiles/w12p3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target w12p3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=7,8 "Built target w12p3"
 .PHONY : CMakeFiles/w12p3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -219,7 +227,7 @@ CMakeFiles/12.dir/clean:
 CMakeFiles/w13p1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p1.dir\build.make CMakeFiles/w13p1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p1.dir\build.make CMakeFiles/w13p1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=7,8 "Built target w13p1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=9,10 "Built target w13p1"
 .PHONY : CMakeFiles/w13p1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -246,7 +254,7 @@ CMakeFiles/w13p1.dir/clean:
 CMakeFiles/w13p3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p3.dir\build.make CMakeFiles/w13p3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w13p3.dir\build.make CMakeFiles/w13p3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target w13p3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=13,14 "Built target w13p3"
 .PHONY : CMakeFiles/w13p3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -300,7 +308,7 @@ CMakeFiles/w10plus1.dir/clean:
 CMakeFiles/w14p1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p1.dir\build.make CMakeFiles/w14p1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p1.dir\build.make CMakeFiles/w14p1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=13,14 "Built target w14p1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=15,16 "Built target w14p1"
 .PHONY : CMakeFiles/w14p1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -327,7 +335,7 @@ CMakeFiles/w14p1.dir/clean:
 CMakeFiles/w14p2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p2.dir\build.make CMakeFiles/w14p2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p2.dir\build.make CMakeFiles/w14p2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=15,16 "Built target w14p2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=17,18 "Built target w14p2"
 .PHONY : CMakeFiles/w14p2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -354,7 +362,7 @@ CMakeFiles/w14p2.dir/clean:
 CMakeFiles/w14p3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p3.dir\build.make CMakeFiles/w14p3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p3.dir\build.make CMakeFiles/w14p3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=17,18 "Built target w14p3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=19,20 "Built target w14p3"
 .PHONY : CMakeFiles/w14p3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -373,6 +381,114 @@ w14p3: CMakeFiles/w14p3.dir/rule
 CMakeFiles/w14p3.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p3.dir\build.make CMakeFiles/w14p3.dir/clean
 .PHONY : CMakeFiles/w14p3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/w15p1.dir
+
+# All Build rule for target.
+CMakeFiles/w15p1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p1.dir\build.make CMakeFiles/w15p1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p1.dir\build.make CMakeFiles/w15p1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=21,22 "Built target w15p1"
+.PHONY : CMakeFiles/w15p1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/w15p1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/w15p1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/w15p1.dir/rule
+
+# Convenience name for target.
+w15p1: CMakeFiles/w15p1.dir/rule
+
+.PHONY : w15p1
+
+# clean rule for target.
+CMakeFiles/w15p1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p1.dir\build.make CMakeFiles/w15p1.dir/clean
+.PHONY : CMakeFiles/w15p1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/w15p2.dir
+
+# All Build rule for target.
+CMakeFiles/w15p2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p2.dir\build.make CMakeFiles/w15p2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p2.dir\build.make CMakeFiles/w15p2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=23,24 "Built target w15p2"
+.PHONY : CMakeFiles/w15p2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/w15p2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/w15p2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/w15p2.dir/rule
+
+# Convenience name for target.
+w15p2: CMakeFiles/w15p2.dir/rule
+
+.PHONY : w15p2
+
+# clean rule for target.
+CMakeFiles/w15p2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p2.dir\build.make CMakeFiles/w15p2.dir/clean
+.PHONY : CMakeFiles/w15p2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/w11pkus1.dir
+
+# All Build rule for target.
+CMakeFiles/w11pkus1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w11pkus1.dir\build.make CMakeFiles/w11pkus1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w11pkus1.dir\build.make CMakeFiles/w11pkus1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target w11pkus1"
+.PHONY : CMakeFiles/w11pkus1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/w11pkus1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/w11pkus1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/w11pkus1.dir/rule
+
+# Convenience name for target.
+w11pkus1: CMakeFiles/w11pkus1.dir/rule
+
+.PHONY : w11pkus1
+
+# clean rule for target.
+CMakeFiles/w11pkus1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w11pkus1.dir\build.make CMakeFiles/w11pkus1.dir/clean
+.PHONY : CMakeFiles/w11pkus1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/w15p3.dir
+
+# All Build rule for target.
+CMakeFiles/w15p3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p3.dir\build.make CMakeFiles/w15p3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p3.dir\build.make CMakeFiles/w15p3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" --progress-num=25,26 "Built target w15p3"
+.PHONY : CMakeFiles/w15p3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/w15p3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/w15p3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\d4050\Documents\program\data structure\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/w15p3.dir/rule
+
+# Convenience name for target.
+w15p3: CMakeFiles/w15p3.dir/rule
+
+.PHONY : w15p3
+
+# clean rule for target.
+CMakeFiles/w15p3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p3.dir\build.make CMakeFiles/w15p3.dir/clean
+.PHONY : CMakeFiles/w15p3.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

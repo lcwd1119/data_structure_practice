@@ -259,6 +259,58 @@ w14p3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p3.dir\build.make CMakeFiles/w14p3.dir/build
 .PHONY : w14p3/fast
 
+#=============================================================================
+# Target rules for targets named w15p1
+
+# Build rule for target.
+w15p1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w15p1
+.PHONY : w15p1
+
+# fast build rule for target.
+w15p1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p1.dir\build.make CMakeFiles/w15p1.dir/build
+.PHONY : w15p1/fast
+
+#=============================================================================
+# Target rules for targets named w15p2
+
+# Build rule for target.
+w15p2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w15p2
+.PHONY : w15p2
+
+# fast build rule for target.
+w15p2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p2.dir\build.make CMakeFiles/w15p2.dir/build
+.PHONY : w15p2/fast
+
+#=============================================================================
+# Target rules for targets named w11pkus1
+
+# Build rule for target.
+w11pkus1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w11pkus1
+.PHONY : w11pkus1
+
+# fast build rule for target.
+w11pkus1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w11pkus1.dir\build.make CMakeFiles/w11pkus1.dir/build
+.PHONY : w11pkus1/fast
+
+#=============================================================================
+# Target rules for targets named w15p3
+
+# Build rule for target.
+w15p3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 w15p3
+.PHONY : w15p3
+
+# fast build rule for target.
+w15p3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p3.dir\build.make CMakeFiles/w15p3.dir/build
+.PHONY : w15p3/fast
+
 12.obj: 12.cpp.obj
 
 .PHONY : 12.obj
@@ -312,6 +364,33 @@ w10/w10plus1.s: w10/w10plus1.cpp.s
 w10/w10plus1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w10plus1.dir\build.make CMakeFiles/w10plus1.dir/w10/w10plus1.cpp.s
 .PHONY : w10/w10plus1.cpp.s
+
+w11/w11pkus1.obj: w11/w11pkus1.cpp.obj
+
+.PHONY : w11/w11pkus1.obj
+
+# target to build an object file
+w11/w11pkus1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w11pkus1.dir\build.make CMakeFiles/w11pkus1.dir/w11/w11pkus1.cpp.obj
+.PHONY : w11/w11pkus1.cpp.obj
+
+w11/w11pkus1.i: w11/w11pkus1.cpp.i
+
+.PHONY : w11/w11pkus1.i
+
+# target to preprocess a source file
+w11/w11pkus1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w11pkus1.dir\build.make CMakeFiles/w11pkus1.dir/w11/w11pkus1.cpp.i
+.PHONY : w11/w11pkus1.cpp.i
+
+w11/w11pkus1.s: w11/w11pkus1.cpp.s
+
+.PHONY : w11/w11pkus1.s
+
+# target to generate assembly for a file
+w11/w11pkus1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w11pkus1.dir\build.make CMakeFiles/w11pkus1.dir/w11/w11pkus1.cpp.s
+.PHONY : w11/w11pkus1.cpp.s
 
 w12/w12p3.obj: w12/w12p3.cpp.obj
 
@@ -502,6 +581,87 @@ w14/w14p3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\w14p3.dir\build.make CMakeFiles/w14p3.dir/w14/w14p3.cpp.s
 .PHONY : w14/w14p3.cpp.s
 
+w15/w15p1.obj: w15/w15p1.cpp.obj
+
+.PHONY : w15/w15p1.obj
+
+# target to build an object file
+w15/w15p1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p1.dir\build.make CMakeFiles/w15p1.dir/w15/w15p1.cpp.obj
+.PHONY : w15/w15p1.cpp.obj
+
+w15/w15p1.i: w15/w15p1.cpp.i
+
+.PHONY : w15/w15p1.i
+
+# target to preprocess a source file
+w15/w15p1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p1.dir\build.make CMakeFiles/w15p1.dir/w15/w15p1.cpp.i
+.PHONY : w15/w15p1.cpp.i
+
+w15/w15p1.s: w15/w15p1.cpp.s
+
+.PHONY : w15/w15p1.s
+
+# target to generate assembly for a file
+w15/w15p1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p1.dir\build.make CMakeFiles/w15p1.dir/w15/w15p1.cpp.s
+.PHONY : w15/w15p1.cpp.s
+
+w15/w15p2.obj: w15/w15p2.cpp.obj
+
+.PHONY : w15/w15p2.obj
+
+# target to build an object file
+w15/w15p2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p2.dir\build.make CMakeFiles/w15p2.dir/w15/w15p2.cpp.obj
+.PHONY : w15/w15p2.cpp.obj
+
+w15/w15p2.i: w15/w15p2.cpp.i
+
+.PHONY : w15/w15p2.i
+
+# target to preprocess a source file
+w15/w15p2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p2.dir\build.make CMakeFiles/w15p2.dir/w15/w15p2.cpp.i
+.PHONY : w15/w15p2.cpp.i
+
+w15/w15p2.s: w15/w15p2.cpp.s
+
+.PHONY : w15/w15p2.s
+
+# target to generate assembly for a file
+w15/w15p2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p2.dir\build.make CMakeFiles/w15p2.dir/w15/w15p2.cpp.s
+.PHONY : w15/w15p2.cpp.s
+
+w15/w15p3.obj: w15/w15p3.cpp.obj
+
+.PHONY : w15/w15p3.obj
+
+# target to build an object file
+w15/w15p3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p3.dir\build.make CMakeFiles/w15p3.dir/w15/w15p3.cpp.obj
+.PHONY : w15/w15p3.cpp.obj
+
+w15/w15p3.i: w15/w15p3.cpp.i
+
+.PHONY : w15/w15p3.i
+
+# target to preprocess a source file
+w15/w15p3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p3.dir\build.make CMakeFiles/w15p3.dir/w15/w15p3.cpp.i
+.PHONY : w15/w15p3.cpp.i
+
+w15/w15p3.s: w15/w15p3.cpp.s
+
+.PHONY : w15/w15p3.s
+
+# target to generate assembly for a file
+w15/w15p3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\w15p3.dir\build.make CMakeFiles/w15p3.dir/w15/w15p3.cpp.s
+.PHONY : w15/w15p3.cpp.s
+
 w8/w8plus2.obj: w8/w8plus2.cpp.obj
 
 .PHONY : w8/w8plus2.obj
@@ -539,6 +699,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 12
 	@echo ... w10plus1
+	@echo ... w11pkus1
 	@echo ... w12p3
 	@echo ... w13p1
 	@echo ... w13p2
@@ -546,6 +707,9 @@ help:
 	@echo ... w14p1
 	@echo ... w14p2
 	@echo ... w14p3
+	@echo ... w15p1
+	@echo ... w15p2
+	@echo ... w15p3
 	@echo ... w8plus2
 	@echo ... 12.obj
 	@echo ... 12.i
@@ -553,6 +717,9 @@ help:
 	@echo ... w10/w10plus1.obj
 	@echo ... w10/w10plus1.i
 	@echo ... w10/w10plus1.s
+	@echo ... w11/w11pkus1.obj
+	@echo ... w11/w11pkus1.i
+	@echo ... w11/w11pkus1.s
 	@echo ... w12/w12p3.obj
 	@echo ... w12/w12p3.i
 	@echo ... w12/w12p3.s
@@ -574,6 +741,15 @@ help:
 	@echo ... w14/w14p3.obj
 	@echo ... w14/w14p3.i
 	@echo ... w14/w14p3.s
+	@echo ... w15/w15p1.obj
+	@echo ... w15/w15p1.i
+	@echo ... w15/w15p1.s
+	@echo ... w15/w15p2.obj
+	@echo ... w15/w15p2.i
+	@echo ... w15/w15p2.s
+	@echo ... w15/w15p3.obj
+	@echo ... w15/w15p3.i
+	@echo ... w15/w15p3.s
 	@echo ... w8/w8plus2.obj
 	@echo ... w8/w8plus2.i
 	@echo ... w8/w8plus2.s
