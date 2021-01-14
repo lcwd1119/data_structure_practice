@@ -1,93 +1,78 @@
 #include <iostream>
 #include <vector>
-#include <stack>
 #include <queue>
 using namespace std;
+vector<int> lis[100];
 
-void dfs(vector<int> list[],int size)
+void dfs(vector<int> list,int index,int isvisit[])
 {
-    stack<int> sta;
-    int isvisit[size] = {};
-    int i = 0;
-    while (true)
+    if(isvisit[index] == 0)
     {
-        if(!isvisit[i])
+        if(isvisit[0])
+            cout << " ";
+        cout << index;
+        isvisit[index] = 1;
+        dfs(lis[index],index,isvisit);
+    }
+    for(int i = 0;i < list.size();i++)
+    {
+        if(isvisit[list[i]] == 0)
         {
             if(isvisit[0])
                 cout << " ";
-            cout << i;
-            isvisit[i] = 1;
-        }
-        int j;
-        for(j = 0;j < list[i].size();j++)
-        {
-            if(!isvisit[list[i][j]])
-                break;
-        }
-
-        if(j != list[i].size())
-        {
-            j = list[i][j];
-            sta.push(i);
-            i = j;
-        }
-        else
-        {
-            i = sta.top();
-            sta.pop();
-            if(sta.empty())
-                break;
+            cout << list[i];
+            isvisit[list[i]] = 1;
+            dfs(lis[list[i]],list[i],isvisit);
         }
     }
 }
 
-void bfs(vector<int> list[],int size)
+void bfs(vector<int> list,int index,int isvisit[],queue<int> &que)
 {
-    queue<int> que;
-    int isvisit[size] = {};
-    int i =0;
-    while (true)
+    if(isvisit[index] == 0)
     {
-        if(!isvisit[i])
+        if(isvisit[0])
+            cout << " ";
+        cout << index;
+        que.push(index);
+        isvisit[index] = 1;
+    }
+    for(int i = 0;i < list.size();i++)
+    {
+        if(isvisit[list[i]] == 0)
         {
             if(isvisit[0])
                 cout << " ";
-            cout << i;
-            isvisit[i] = 1;
+            cout << list[i];
+            que.push(list[i]);
+            isvisit[list[i]] = 1;
         }
-        for(auto &j : list[i])
-        {
-            if(!isvisit[j])
-            {
-                if(isvisit[0])
-                    cout << " ";
-                cout << j;
-                isvisit[j] = 1;
-                que.push(j);
-            }
-        }
-        if(que.empty())
-            break;
-        i = que.front();
-        que.pop();
     }
+    que.pop();
+    if(que.empty())
+        return;
+    bfs(lis[que.front()], que.front(), isvisit,que);
 }
 int main()
 {
     int num1,num2,max_size = 0;
-    vector<int> list[100];
     while (cin >> num1 >> num2)
     {
+        if(num1 == -1)
+            break;
         if(max(num1,num2) > max_size)
             max_size = max(num1,num2);
-        list[num1].push_back(num2);
-        list[num2].push_back(num1);
+        lis[num1].push_back(num2);
+        lis[num2].push_back(num1);
     }
     max_size++;
     cout << "Depth First Search:" << endl;
-    dfs(list,max_size);
+    int isvisit[max_size] = {};
+    dfs(lis[0],0,isvisit);
     cout << endl << endl << "Breadth First Search:" << endl;
-    bfs(list,max_size);
+    int isvisit2[max_size] = {},count = 0;
+    queue<int> que;
+    bfs(lis[0],0,isvisit2,que);
     cout << endl;
     return 0;
 }
